@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
 }
 
 a {
@@ -61,8 +62,9 @@ a {
 
 .header__photo {
     border-radius: 50%;
-    width: 100px;
+    width: 120px;
     margin-left: 50px;
+    border: 2px solid #fff;
 }
 
 /* MAIN */
@@ -79,3 +81,99 @@ a {
     border-bottom: 1px solid #DEE2ED;
 }
 
+.main__experience {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color:#E25544;
+}
+
+.experience__right-side {
+    max-width: 360px;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 10px;
+}
+
+.right-side__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #485268;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #485268;
+}
+
+.first {
+    margin-top: 8px;
+}
+
+.second {
+    margin-top: 8px;
+}
+
+.third {
+    margin-top: 8px;
+}
+
+.list {
+    font-weight: 600;
+}
+
+.main__experience {
+    border-bottom: 1px solid #DEE2ED;
+    padding-bottom: 20px;
+}
+
+.main__education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #DEE2ED;
+    padding-bottom: 20px;
+}
+
+.education__right-side {
+    width: 360px;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 10px;
+}
+
+.main__skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #DEE2ED;
+    padding-bottom: 20px;
+}
+
+.skills__right-side {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.skill-name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #485268;
+    margin-bottom: 8px;
+}
+
+.first-column, 
+.second-column {
+    width: 180px;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 10px;
+}
